@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form2</title>
+</head>
+<body>
+    <form style="background-color: lightblue;">
+        <fieldset>
+            <legend style="color: rgb(255, 0, 166);">COMPLETE YOUR Application</legend>
+        <h2>Job Application</h2>
+        <label for="name">Name:</label>
+        <br>
+        <input type="text" name="name" id="name" placeholder="Enter your name Here">
+        <br><br>
+        <label for="email">Email:</label>
+        <br>
+        <input type="text" name="email" id="email" placeholder="Enter your Email Here..">
+        <br><br>
+        <label for="phoneno">Contact No:</label>
+        <br>
+        <input type="tel" name="phoneno" id="phoneno" placeholder="Enter your Phone no Here..">
+        <br><br>
+        <label for="file">Resume:</label>
+        <br>
+        <input type="file" name="file" id="file">
+        <br><br>
+        <label for="counter">Experience (of year)</label>
+        <br>
+        <input type="number" name="counter" id="counter" min="0" max="50">
+        <fieldset>
+            <legend>Interest of Skills</legend>
+            <label for="radio">HTML</label>
+            <br>
+            <input type="radio" name="radio" id="radio">
+            <br>
+            <label for="radio1">CSS</label>
+            <br>
+            <input type="radio" name="radio" id="radio1">
+            <br>
+            <label for="radio2">JavaScript</label>
+            <br>
+            <input type="radio" name="radio" id="radio2">
+            <br><br>
+        </fieldset>
+        <br><br>
+        <label for="educationtype">Higher Education</label>
+        <br>
+        <select name="educationtype" id="educationtype">
+            <label for="education">Education</label>
+            <option value="highyschool">Highy School</option>
+            <option value="intermiate">F.S.C</option>
+            <option value="bcom">B.Com</option>
+            <option value="mcom">M.Com</option>
+        </select>
+        <fieldset>
+            <legend>Availability</legend>
+            <label for="radio">Full Time</label>
+            <input type="radio" name="radio" id="radio">
+            <label for="radio1">Part Time</label>
+            <input type="radio" name="radio" id="radio1">
+        </fieldset>
+        <br><br>
+        <label for="text">Additional Comments</label>
+        <br>
+        <textarea name="text" id="text" cols="30" rows="10" placeholder="Write Your comments Here.."></textarea>
+        <button>Submit Application</button>
+    </fieldset>
+    </form>
+</body>
+</html>
